@@ -25,6 +25,7 @@ public class UserInterface extends JFrame implements ConnectionCallBack {
         setUpLabels();
         setUpActions();
 
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(null);
         setResizable(false);
